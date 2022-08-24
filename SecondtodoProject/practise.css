@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3vmax;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 50vmax;
+    margin-bottom: 2vmax;
+    padding: 15px;
+}
+
+textarea {
+    width: 50vmax;
+    margin-bottom: 2vmax;
+}
+
+#btn {
+    width: 10vmax;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: #efefef;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-style: italic;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.text_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 3vmax;
+    background-color: rgb(247, 247, 247);
+    width: 50vw;
+    margin: 30px auto;
+}
+
+.text_container > div > p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ .delete_btn {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+} 
+
+#logoutbtn{
+ position: relative;
+}
+
+#logoutbtn > button{
+    position: absolute;
+    right: 0;
+    margin: 0px 50px;
+    background: crimson;
+    padding: 15px 15px;
+    color: #efefef;
+    cursor: pointer;
+}
+
+
+
+.sub_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

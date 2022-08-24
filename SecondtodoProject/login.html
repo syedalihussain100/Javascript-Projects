@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            margin-bottom: 40px;
+        }
+
+        #email {
+            padding: 1vmax;
+            border: 1px solid;
+            width: 40vmax;
+        }
+
+        #password {
+            padding: 1vmax;
+            border: 1px solid;
+            width: 40vmax;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 90vh;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        button {
+            outline: none;
+            border: none;
+            padding: 15px 15px;
+            cursor: pointer;
+            background-color: crimson;
+            color: #fff;
+        }
+
+        #signuphere{
+            margin: 0px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+
+        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        <input type="password" name="password" id="password" placeholder="Enter Your Password">
+        <div class="button_container">
+            <button onclick="signin()">Sign In</button>
+            <button id="signuphere">Signup</button>
+        </div>
+
+    </div>
+    <!--  -->
+    <script src="./User.js"></script>
+</body>
+
+</html>

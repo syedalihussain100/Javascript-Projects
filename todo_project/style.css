@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#todo {
+    width: 40vmax;
+    padding: 15px;
+}
+
+
+.btn {
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.list_container {
+    width: 50vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.mylist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn_del{
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
